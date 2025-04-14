@@ -1,5 +1,5 @@
 #Código criado por:
-#Antonio Augusto Nunes de Souza N°USP 15440698  
+#Antonio Augusto Nunes de Souza
 
 #Iteração do Método da Bissecção
 def bissecao(a:float,b:float,funcao,precisao:float,valor_exato:float,x_anterior:float,k=0,parada=False):
