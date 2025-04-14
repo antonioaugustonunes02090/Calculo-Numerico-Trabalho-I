@@ -1,5 +1,5 @@
 #Código criado por:
-#Antonio Augusto Nunes de Souza N°USP 15440698
+#Antonio Augusto Nunes de Souza
 
 #Implementação da classe Polinomio
 class Polinômio:
