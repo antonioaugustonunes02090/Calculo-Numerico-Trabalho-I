@@ -1,7 +1,7 @@
 from polinomio import Polinômio
-from newton import metodo_newton
-from bisseccao import metodo_bissecao
-from secantes import metodo_secantes
+from newton.newton import metodo_newton
+from bisseccao.bisseccao import metodo_bissecao
+from secantes.secantes import metodo_secantes
 #Função de interesse
 #f(x) = 3x⁵-7x⁴-3x³+7x²-6x+14
 funcao = Polinômio((14,-6,7,-3,-7,3))
