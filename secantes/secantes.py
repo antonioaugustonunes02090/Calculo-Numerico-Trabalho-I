@@ -26,7 +26,7 @@ def write_data_secantes(file,k,x,fx,e):
 #Aplica o método iterativo e gera o arquivo de saída
 def metodo_secantes(xs:tuple,funcao,precisao:float,valor_exato:float,n_raiz:int):
     k=2
-    file = open(f'secantes_saida{n_raiz}.txt','w')
+    file = open(rf'secantes\secantes_saida{n_raiz}.txt','w')
     write_top_secantes(file,xs[0],xs[1],funcao,valor_exato)
     while True:
         data = secantes(xs[1],xs[0],funcao,precisao,valor_exato,k)
