@@ -1,5 +1,5 @@
 #Código criado por:
-#Antonio Augusto Nunes de Souza N°USP 15440698  
+#Antonio Augusto Nunes de Souza
 
 #Iteração do Método de Newton
 def newton(x_k:float, funcao, derivada, precisao:float,valor_exato:float,k=0,parada=False):
