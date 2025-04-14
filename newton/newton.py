@@ -24,7 +24,7 @@ def write_data_newton(file,k,x,fx,f_x,e):
 #Aplica o método iterativo linear e gera o arquivo de saída
 def metodo_newton(x_k:float,funcao,derivada,precisao:float,valor_exato:float,n_raiz:int):
     k=0
-    file = open(rf'newton\newton_saida{n_raiz}.txt','w')
+    file = open(f'newton_saida{n_raiz}.txt','w')
     write_top_newton(file)
     while True:
         data = newton(x_k,funcao,derivada,precisao,valor_exato,k)
