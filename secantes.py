@@ -1,5 +1,5 @@
 #Código criado por:
-#Antonio Augusto Nunes de Souza N°USP 15440698  
+#Antonio Augusto Nunes de Souza
 
 #Iteração do Método das Secantes
 def secantes(x_1:float, x_0:float, funcao, precisao:float,valor_exato:float,k=0,parada=False):
